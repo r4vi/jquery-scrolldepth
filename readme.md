@@ -23,7 +23,7 @@ $.scrollDepth({
 ```
 ## Requirements
 * Google Analytics asynchronous tracking snippet
-* jQuery 1.7+
+* jQuery 1.4.4+
 
 ## GA Events Warning
 <del>GA Events data messes with your bounce rate.</del> As of version 0.1.1 of this plugin, the scroll events no longer impact your bounce rate. If you downloaded the initial 0.1.0 release and you care about the GA displayed bounce rate, update to the latest version.
