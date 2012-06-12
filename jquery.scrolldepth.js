@@ -89,7 +89,7 @@
      * Scroll Event
      */
 
-    $window.on('scroll.scrollDepth', function() {
+    $window.bind('scroll.scrollDepth', function() {
 
       /*
        * We calculate document and window height on each scroll event to
@@ -111,7 +111,7 @@
 
       // If all marks already hit, unbind scroll event
       if (cache.length >= 4 + options.elements.length) {
-        $window.off('scroll.scrollDepth');
+        $window.unbind('scroll.scrollDepth');
         return;
       }
 
